@@ -60,6 +60,10 @@ body {
   .botao:first-child {
       border-radius: 40px 0 0 0;
   }
+.ativo{
+  .background-color: var(--botao .ativo)
+}
+
 
   .botao:last-child {
       border-radius: 0 40px 0 0;
@@ -73,10 +77,6 @@ body {
     display: block;
 }
 
-@media screen and (min-width: 768px) {
-    .botoes {
-        display: flex;
-    }
 
   
 
